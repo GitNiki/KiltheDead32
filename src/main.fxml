@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="680.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
+   <children>
+      <Button fx:id="buttonNewGame" layoutX="300.0" layoutY="545.0" mnemonicParsing="false" onAction="#newFame" prefHeight="31.0" prefWidth="99.0" text="GAME" />
+      <Button fx:id="buttonExit" layoutX="299.0" layoutY="593.0" mnemonicParsing="false" onAction="#exit" prefHeight="31.0" prefWidth="99.0" text="EXIT" />
+   </children>
+</Pane>
