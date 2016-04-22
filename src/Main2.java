@@ -129,7 +129,7 @@ public class Main2 extends Application implements Measures{
             record = Integer.parseInt(sRecord);
             System.out.println("" + record);
             br.close();
-            fr.close();
+            fr.close();//asaskalskasklaks
         } catch (Exception e) {
             record = 0;
         }
